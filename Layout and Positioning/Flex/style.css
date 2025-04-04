@@ -1,0 +1,54 @@
+.container {
+  height: 80vh;
+  border: solid 4px black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.box {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  font-size: 8em;
+  text-align: center;
+  color: white;
+}
+
+#box-1 {
+  background: rgb(192, 108, 217);
+}
+#box-2 {
+  background: hsl(0, 34%, 61%);
+}
+#box-3 {
+  background: hsl(92, 73%, 73%);
+}
+#box-4 {
+  background: hwb(263 1% 6% / 0.73);
+}
+#box-5 {
+  background: hwb(167 5% 23%);
+}
+#box-6 {
+  background: hwb(55 25% 44%);
+}
+#box-7 {
+  background: hwb(320 6% 11%);
+}
+#box-8 {
+  background: rgb(248, 187, 4);
+}
+#box-9 {
+  background: hwb(160 11% 9%);
+}
+#box-10 {
+  background: hsl(208, 57%, 62%);
+}
+#box-11 {
+  background: hwb(208 7% 56%);
+}
+#box-12 {
+  background: hwb(161 18% 36%);
+}
