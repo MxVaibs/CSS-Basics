@@ -1,0 +1,19 @@
+div {
+  background: red;
+  font-size: 40px;
+  color: white;
+  height: 200;
+}
+
+span {
+  background: blue;
+  font-size: 40px;
+  color: white;
+}
+p {
+  background: green;
+  font-size: 40px;
+  color: white;
+  display: inline-block;
+  height: 200;
+}
