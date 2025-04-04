@@ -1,0 +1,41 @@
+div {
+  display: flex;
+}
+#RELATIVE {
+  background: red;
+  height: 200;
+  width: 200;
+  position: relative;
+  color: white;
+}
+#ABSOLUTE {
+  background: blue;
+  height: 100;
+  width: 100;
+  position: absolute;
+  z-index: 1;
+  color: white;
+  top: 100px;
+}
+#FIXED {
+  background: green;
+  height: 200;
+  width: 200;
+  position: fixed;
+  color: white;
+  top: 500px;
+}
+
+p {
+  font-size: x-large;
+  position: absolute;
+}
+
+#STICKY {
+  background: yellow;
+  height: 200;
+  width: 200;
+  position: sticky;
+  top: 0px;
+  color: white;
+}
